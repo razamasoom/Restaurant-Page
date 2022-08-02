@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@800&family=Orbitron:wght@900&family=Playfair+Display:wght@900&family=Red+Rose:wght@700&display=swap');
+:root{
+  --yellow : #EDC126;
+  --red : #ff505f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body{
+  background-image:  linear-gradient(to top, rgba(14, 37, 105, 0.5)  50%,rgba(14, 37,105, 0.5) 50%),
+     url(./assets/pexels-maxyne-barcel-10402282\ 1.png) ;
+  height: 100vh;
+ 
+  background-position: center;
+  background-size:cover;
+}
+nav {
+position: relative;
+  display: flex;
+  height: 25vh;
+  min-width: 100%;
+  
+  justify-content: space-around;
+}
+.list{
+display: flex;
+flex: 1;
+justify-content: space-between;
+list-style-type: none;
+align-items: center;
+position: relative;
+top: 30px;
+
+}
+.list-item{
+ margin-inline-start: 50px;
+ font-size: 20px;
+ color: var(--yellow)
+}
+.logo{
+  flex: 1;
+  margin:auto;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.button-small{
+  flex: 1;
+  position: absolute;
+  top: 30px;
+  padding: 8px 25px;
+  color: #ffffff;
+  background-color: var(--red);
+  border: #ff505f solid 2PX;
+  font-size: 20px;
+}
+.hero{
+  display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+.hero-heading{
+position: absolute;
+font-size: 60px;
+margin-left: 350px;
+margin-right: 350px;
+text-align: center;
+top: 170px;
+font-weight: 600;
+font-family: "dela gothic one";
+color: var(--yellow);
+}
+
+.button-large{
+  position: absolute;
+  bottom: 150px;
+  padding: 15px 25px ;
+  font-size: 20px;
+  background-color: var(--red);
+  color: #ffffff;
+  border: #ff505f ;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+}
+.bottom-png{
+  height: 120px;
+  width: 120px;
+}
